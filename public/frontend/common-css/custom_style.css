@@ -1,0 +1,127 @@
+.invalid-feedback{
+    color: red;
+}
+.active-favorite-post{
+    color: #e8702a;
+}
+.main-slider .category:hover{
+    z-index: auto;
+}
+.hidden{
+    display: none!important;
+}
+.autocomplete-result{
+    position: absolute;
+    width: 50%;
+    background: #fff;
+    z-index: 999;
+    float: right!important;
+    padding: 20px;
+    right: 0;
+}
+
+.autocomplete-result {
+    -webkit-box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+    -moz-box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+    box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
+    overflow-y: scroll;
+    max-height: 327px;
+}
+.autocomplete-result li{
+    display: block;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+.autocomplete-result li:last-child{
+    border-bottom: none;
+    padding-bottom: 0;
+}
+.autocomplete-result img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 12px;
+}
+
+/**********Comment reply***********/
+.comment-owner{
+    float: left;
+}
+.comment-owner img{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+}
+.comment-body, .comment-box{
+    margin-left: 38px;
+}
+.single-comment, .comment-form-section{
+    padding-bottom: 12px;
+}
+.comment-form-section .comment-box{
+    margin-left: 36px;
+}
+.comment-info{
+    padding: 5px 10px;
+    background-color: #f2f3f5;
+    border-radius: 18px;
+    display: inline-block;
+}
+.comment-action{
+    margin-left: 10px;
+    margin-top: 2px;
+    font-size: 12px;
+    color: #385898;
+}
+.comment-body a{
+    cursor: pointer;
+    color: #385898!important;
+    font-size: 13px;
+}
+.comment-body a:hover{
+    text-decoration: underline;
+}
+.comment-replies {
+    margin-top: -8px;
+    padding: 8px 0 0 54px;
+}
+.comment-replies .comment-body{
+    margin-left: 25px;
+}
+.comment-replies .comment-box{
+    margin-left: 25px;
+}
+.comment-replies img{
+    height: 20px;
+    width: 20px;
+    vertical-align: -webkit-baseline-middle;
+}
+.comment-box textarea{
+    border-radius: 18px!important;
+    height: 34px!important;
+    background: #f2f3f5;
+    resize: none;
+    overflow: hidden;
+}
+.comment-box textarea:focus{
+    background-color: #f2f3f5;
+}
+
+.comment .post-info .left-area {
+    height: 40px!important;
+    width: 40px!important;
+    margin-top: -22px!important;
+}
+.comment .post-info .middle-area {
+    padding-left: 50px!important;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .autocomplete-result {
+        width: 100%;
+    }
+}
